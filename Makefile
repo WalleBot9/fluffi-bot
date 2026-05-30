@@ -3,8 +3,8 @@ SRC_DIR := src
 CPP_FILES := $(wildcard $(SRC_DIR)/*.cpp)
 C_FILES := $(wildcard $(SRC_DIR)/*.c)
 OBJ_FILES := $(CPP_FILES:.cpp=.o) $(C_FILES:.c=.o)
-PCH_FILE := $(SRC_DIR)/stdafx.h
-PCH := $(SRC_DIR)/stdafx.h.gch
+PCH_FILE := $(SRC_DIR)/Common.h
+PCH := $(SRC_DIR)/Common.h.gch
 OUTPUT_DIR := bin
 EXE := $(OUTPUT_DIR)/fluffi-bot
 
