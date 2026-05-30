@@ -81,22 +81,22 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
-    <IncludePath>concord/gencodecs;concord/core;concord/include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)concord\core;$(SolutionDir)concord\include;$(SolutionDir)concord\gencodecs;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
-    <IncludePath>concord/gencodecs;concord/core;concord/include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)concord\core;$(SolutionDir)concord\include;$(SolutionDir)concord\gencodecs;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>concord/gencodecs;concord/core;concord/include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)concord\core;$(SolutionDir)concord\include;$(SolutionDir)concord\gencodecs;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>concord/gencodecs;concord/core;concord/include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)concord\core;$(SolutionDir)concord\include;$(SolutionDir)concord\gencodecs;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
-    <IncludePath>concord/gencodecs;concord/core;concord/include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)concord\core;$(SolutionDir)concord\include;$(SolutionDir)concord\gencodecs;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
-    <IncludePath>concord/gencodecs;concord/core;concord/include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)concord\core;$(SolutionDir)concord\include;$(SolutionDir)concord\gencodecs;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="Common.cpp" />
