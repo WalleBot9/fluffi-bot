@@ -6,8 +6,11 @@
 
 /****** Includes ******/
 
+#include <algorithm>
+#include <iostream>
 #include <map>
 
+#include <sqlite3.h>
 
 
 /****** Forward References ******/
