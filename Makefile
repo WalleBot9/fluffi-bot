@@ -13,8 +13,8 @@ CXX := g++
 CC := gcc
 
 # Flags
-CXXFLAGS := -O3 -Wall -Wextra -Werror -std=c++20 -pedantic -Weffc++ -Woverloaded-virtual -Wsign-promo  -Wctor-dtor-privacy -Wnon-virtual-dtor -Wno-unused-value -Wno-deprecated-copy -Wreorder -Winvalid-pch -I"./concord/inc" -D_DEBUG
-LNKFLAGS := 
+CXXFLAGS := -O3 -Wall -Wextra -Werror -std=c++20 -pedantic -Weffc++ -Woverloaded-virtual -Wsign-promo  -Wctor-dtor-privacy -Wnon-virtual-dtor -Wno-unused-value -Wno-deprecated-copy -Wreorder -Winvalid-pch -I"./concord/include" -I"./concord/core" -I"concord/gencodecs"
+LNKFLAGS := -Lconcord/lib -ldiscord -lcurl
 
 # Targets
 all: $(PCH) $(EXE)
