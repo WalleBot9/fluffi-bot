@@ -10,6 +10,11 @@
 #include <iostream>
 #include <map>
 
+namespace Concord
+{
+#include <discord.h>
+}
+
 #include <sqlite3.h>
 
 
